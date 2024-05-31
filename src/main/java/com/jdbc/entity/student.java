@@ -1,4 +1,4 @@
-package com.jdbc;
+package com.jdbc.entity;
 
 public class student {
     private String Name;
@@ -11,11 +11,7 @@ public class student {
         Name = name;
     }
 
-    public student(String name, int ID, String city) {
-        Name = name;
-        this.ID = ID;
-        City = city;
-    }
+
 
     public int getID() {
         return ID;
